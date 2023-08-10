@@ -26,13 +26,11 @@ export default function HomePage() {
             username={x.username}
             commentText={x.commentText}
             likeNum={x.likeNum}
-            replies={x.replies}
+            replies={x.replies.Reply}
           ></Comment>
         ))}
 
         {/* Reply Example */}
-
-        {/* <Reply></Reply> */}
 
         {/* map-loop render Comment component here */}
       </div>
